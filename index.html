@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CALL_BACK HELL</title>
+    <style>
+        .Master{
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            font-size: 50px;
+            text-align: center;
+            margin: 20% 30% ;
+            padding: 10px;
+            border: 4px solid purple;
+            color: rgb(46, 46, 235);
+            border-radius: 5px;
+            border-width: 500;
+            background-image: linear-gradient(to right, orange, white, green);
+
+
+        }
+    </style>
+</head>
+<body>
+    <script>
+
+
+        let count=document.createElement("div");
+        count.className="Master"
+
+        setTimeout( ()=>{
+            count.innerText=" COUNTDOWN STARTS! "
+        });
+        setTimeout( ()=>{
+            count.innerText="10"
+        },1500);
+        setTimeout( ()=>{
+            count.innerText="9"
+        },2500);
+        setTimeout( ()=>{
+            count.innerText="8"
+        },3500);
+        setTimeout( ()=>{
+            count.innerText="7"
+        },4500);
+        setTimeout( ()=>{
+            count.innerText="6"
+        },5500);
+        setTimeout( ()=>{
+            count.innerText="5"
+        },6500);
+        setTimeout( ()=>{
+            count.innerText="4"
+        },7500);
+        setTimeout( ()=>{
+            count.innerText="3"
+        },8500);
+        setTimeout( ()=>{
+            count.innerText="2"
+        },9000);
+        setTimeout( ()=>{
+            count.innerText="1"
+        },9500);
+        setTimeout( ()=>{
+            count.innerText=" HAPPY  INDEPENDENCE  DAY  !!"
+        },9900);
+        document.body.append(count);
+
+        
+
+
+    </script>
+</body>
+</html>
